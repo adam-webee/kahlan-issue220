@@ -1,0 +1,26 @@
+{
+    "name": "WeBee/kahlan-issue220",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "WeBee\\": "src/"
+        }
+    },
+    "require-dev": {
+        "kahlan/kahlan": "~3.0",
+        "kahlan/extra-matcher": "dev-master",
+        "friendsofphp/php-cs-fixer": "^2.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WeBee\\Spec\\": "spec/"
+        }
+    },
+    "config": {
+        "vendor-dir": "vendor",
+        "bin-dir": "bin"
+    }
+}
